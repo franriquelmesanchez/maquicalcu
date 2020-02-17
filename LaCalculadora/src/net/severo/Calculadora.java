@@ -10,7 +10,12 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 
 public class Calculadora extends JFrame {
-	 public Calculadora() {
+	 /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public Calculadora() {
 	        super("Calculadora");
 	        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	        getContentPane().setLayout(new BorderLayout());
